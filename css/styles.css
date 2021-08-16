@@ -1,0 +1,10 @@
+body{
+  background-image: url('../images/pattern-background-desktop.svg');
+}
+
+.card{
+  margin: 200px 500px;
+}
+.order{
+  text-align: center;
+}
