@@ -1,89 +1,141 @@
-body{
+body {
   background-image: url('../images/pattern-background-desktop.svg');
   text-align: center;
   background-color: hsl(225, 100%, 94%);
   background-repeat: no-repeat;
 }
 
-
-.attribution{
+.attribution {
   padding-top: 120px;
 }
 
-.card{
+.card {
   margin: 70px auto auto;
-  height: 500px;
+  height: 465px;
   width: 325px;
   border-radius: 15px;
   background-color: white;
 }
 
-.cancel{
+.cancel {
   margin: 0;
   padding-top: 20px;
   background: None;
   border: None;
   margin: None;
   cursor: pointer;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
+  font-size: 10px;
+  color: hsl(224, 23%, 55%);
+
 }
-.change{
+
+.change {
   display: inline;
 }
-.change button{
+
+.change button {
   background: None;
   border: None;
-  margin:0;
+  margin: 0;
   padding: 0;
   cursor: pointer;
-  position: relative;
-
+  position: absolute;
+  left: 200px;
+  top: 18px;
+  font-size: 10px;
+  text-decoration: underline;
+  color: hsl(245, 75%, 52%);
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 700;
 }
 
-.desc{
+.desc {
   text-align: center;
   padding: 0 40px;
+  padding-bottom: 20px;
+  font-size: 10px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  width: 200px;
+  margin: auto;
+  color: hsl(224, 23%, 55%);
 }
-.details{
+
+.details {
   margin: 0;
   display: inline;
   width: 100px;
 }
 
-.hero-img{
+.hero-img {
   border-radius: 15px 15px 0 0;
   width: 325px;
   padding-bottom: 5px;
-
 }
-.payment button{
+
+.payment button {
   height: 35px;
   width: 250px;
+  border: None;
   border-radius: 8px;
   cursor: pointer;
-}
-.payment{
-  padding-top: 20px;
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  font-size: 10px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+  box-shadow: 0 8px 30px -7px hsl(245, 75%, 52%);
 }
 
-.plan{
+.payment {
+  margin-top: 20px;
+  margin-bottom: 5px;
+}
+
+.plan {
   height: 50px;
   width: 250px;
-  margin: 0;
+  margin: auto;
   background-color: hsl(225, 100%, 98%);
-
-}
-.plan-details{
-  display: inline-block;
-
-}
-.details{
-  width: 20%;
+  border-radius: 8px;
+  position: relative;
 }
 
-.price{
-  display: inline;
-}
 
-.order{
+.order {
   text-align: center;
+  color: hsl(223, 47%, 23%);
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+}
+
+.icon {
+  float: left;
+  height: 30px;
+  width: 30px;
+  margin: 10px 13px;
+}
+
+.plan-name {
+  display: inline;
+  position: absolute;
+  left: 54px;
+  top: 9px;
+  font-size: 10px;
+
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 900;
+}
+
+.price {
+  display: inline;
+  position: absolute;
+  left: 54px;
+  top: 25px;
+  font-size: 10px;
+  font-family: 'Red Hat Display', sans-serif;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
 }
