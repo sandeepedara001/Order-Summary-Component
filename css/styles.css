@@ -1,6 +1,8 @@
 body{
   background-image: url('../images/pattern-background-desktop.svg');
   text-align: center;
+  background-color: hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
 }
 
 
@@ -10,7 +12,6 @@ body{
 
 .card{
   margin: 70px auto auto;
-  border: 1px solid;
   height: 500px;
   width: 325px;
   border-radius: 15px;
@@ -23,7 +24,6 @@ body{
   background: None;
   border: None;
   margin: None;
-
   cursor: pointer;
 }
 .change{
@@ -32,14 +32,21 @@ body{
 .change button{
   background: None;
   border: None;
-  margin: 0;
+  margin:0;
   padding: 0;
   cursor: pointer;
+  position: relative;
+
 }
 
 .desc{
   text-align: center;
   padding: 0 40px;
+}
+.details{
+  margin: 0;
+  display: inline;
+  width: 100px;
 }
 
 .hero-img{
@@ -61,10 +68,19 @@ body{
 .plan{
   height: 50px;
   width: 250px;
-  display: inline;
+  margin: 0;
+  background-color: hsl(225, 100%, 98%);
+
 }
 .plan-details{
-  width: 100px;
+  display: inline-block;
+
+}
+.details{
+  width: 20%;
+}
+
+.price{
   display: inline;
 }
 
