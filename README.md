@@ -17,7 +17,5 @@ The challenge is to build out this order summary card component and get it looki
 Your users should be able to:
 
 - See hover states for interactive elements
-- 
+
 Link to access the design: https://sandeepedara001.github.io/Order-Summary-Component/
-
-
